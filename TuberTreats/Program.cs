@@ -1,6 +1,15 @@
+using TuberTreats.Models;
+using TuberTreats.Models.DTOs;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
+List<Customer> customer = new List<Customer> 
+{
+    
+
+};
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
